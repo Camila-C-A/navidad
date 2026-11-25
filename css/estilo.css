@@ -1,0 +1,89 @@
+body{
+    background-color:white;
+   
+}
+header{
+    background-color: rgb(161, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 191, 191);
+    padding: 10px;
+   
+}
+button{
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+h2{
+    color: rgb(161, 26, 26);
+    text-align: center;
+
+}
+section{
+    background-color: rgb(224, 191, 191);
+    margin: 20px;
+    width: 50%;
+    height: 50%;
+}
+h3{
+    color: rgb(161, 26, 26);
+    text-align: center;
+}
+
+.adornos{
+    background-color: white;
+    margin: 20px;
+    width: 50%;
+    height: 500px;
+    
+}
+aside{
+    background-color: rgb(230, 185, 185);
+    margin: 20px;
+    width: 50%;
+    height: 50%;
+    
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 50%;
+    
+    
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(117, 12, 12);
+}
+table{
+
+   padding: 10px;
+}
+.imagenes{
+    display: flex;
+    text-align: center;
+}
+footer{
+    background-color: rgb(161, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    color:rgb(78, 16, 16);
+}

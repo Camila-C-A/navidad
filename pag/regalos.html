@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/historia.css">
+    <script src="../regalo.js"></script>
+</head>
+<body>
+<div class="titulo">
+
+    <div class="principal">
+        <header>
+            <img src="../img/portada.jpg" alt="" width=100% height=300px>
+        </header>
+        <nav>
+            
+           <button type="button"><a href="../index.html">BIENVENIDA</a></button><br>
+            <button type="button"><a href="../pag/historia.html">HISTORIA</a></button><br>
+            <button type="button"><a href="../pag/personajes.html">PERSONAJES</a></button><br>
+            <button type="button"><a href="../pag/regalos.html">REGALOS</a></button><br>
+            <button type="button"><a href="../pag/comida.html">COMIDA</a></button><br>
+            
+        </nav>
+                       
+        </div>
+        <h2>🎁 Regalos Navideños</h2>
+
+<table>
+  <tr>
+    <td><button type="button" onclick="agregarAlCarrito('Canasta Navideña', 150)">Canasta Navideña - Bs. 150</button></td>
+    <td><button type="button" onclick="agregarAlCarrito('Suéter Navideño', 120)">Suéter Navideño - Bs. 120</button></td>
+  </tr>
+  <tr>
+    <td><button type="button" onclick="agregarAlCarrito('Set de Tazas', 45)">Set de Tazas - Bs. 45</button></td>
+    <td><button type="button" onclick="agregarAlCarrito('Caja de Bombones', 65)">Caja de Bombones - Bs. 65</button></td>
+  </tr>
+</table>
+
+<br>
+
+<ul id="lista-pedido"></ul>
+<input type="text" id="total" value="Bs. 0" readonly>
+<button type="button" onclick="reiniciarPedido()">Limpiar</button>
+
+</div>
+   
+    
+<footer>
+        <h4>Diseñado por Camila Condori Aro, noviembre 2026</h4>
+ </footer>
+
+</body>
+</html>

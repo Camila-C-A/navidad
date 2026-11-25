@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(230, 75, 75);
+}
+
+
+header{
+    background-color: rgb(161, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(134, 31, 31);
+    padding: 10px;
+   
+}
+button{
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+aside
+{
+    background-color: rgb(65, 6, 9);
+    margin: 20px;
+    width: 50%;
+    height: 100%;
+    
+}
+article
+{
+    background-color: rgb(117, 45, 45);
+    margin: 20px;
+    width: 50%;
+    height: 50%;
+    
+}
+section{
+    background-color: rgb(73, 19, 30);
+    margin: 20px;
+    width: 50%;
+    height: 50%;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}
+h1{
+    color: rgb(161, 26, 26);
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(161, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+button{
+    background-color: white;
+    color: rgb(15, 4, 4);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    left: 50%;
+    
+}
